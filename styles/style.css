@@ -93,7 +93,6 @@
   margin-bottom: 100px;
   color: #fff;
   font-size: 100px;
-  /* line-height: 1.15; */
   letter-spacing: 0.3em;
   text-transform: uppercase;
 }
@@ -231,7 +230,7 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 15px;
-  margin: 120px 18px 185px;
+  margin: 120px 18px 182px;
 }
 
 .about__column {
@@ -307,6 +306,10 @@
 .footer__menu-link {
   text-decoration: underline;
   text-underline-offset: 4px;
+}
+
+.footer__menu-link:hover {
+  text-decoration: none;
 }
 
 .footer__menu-link_active {
